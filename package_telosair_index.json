@@ -8,49 +8,23 @@
         "email" : "support@telosair.com",
         "platforms":
         [
-          {
-            "name": "TelosAir Boards",
-            "architecture": "samd",
-            "version": "1.0",
-            "category": "Contributed",
-            "url": "https://github.com/Potsdam-Sensors/TelosAir_Duet_ArduinoBoard/raw/main/TelosAir_Duet.zip?raw=true",
+            {
+          "name": "TelosAir SAMD Boards (dependency: Arduino SAMD Boards 1.6.5)",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/Potsdam-Sensors/TelosAir_Duet_ArduinoBoard/raw/main/TelosAir_Duet.zip?raw=true",
             "archiveFileName": "TelosAir_Boards.zip",
             "checksum": "SHA-256:ca832a3b3b04fcd0f720dec4be4748009fa87be1ef196fa43902e8e1e78f0709",
-            "size": "3711780",
+            "size": "1291430",
             "boards": [
               {
                 "name": "TelosAir Duet"
               }
             ],
-            "toolsDependencies":
-            [
-              {
-                "packager": "arduino",
-                "name": "arm-none-eabi-gcc",
-                "version": "7-2017q4"
-              },
-              {
-                "packager": "arduino",
-                "name": "bossac",
-                "version": "1.8.0-48-gb176eee"
-              },
-              {
-                "packager": "arduino",
-                "name": "openocd",
-                "version": "0.10.0-arduino9"
-              },
-              {
-                "packager": "arduino",
-                "name": "CMSIS",
-                "version": "4.5.0"
-              },
-              {
-                "packager": "arduino",
-                "name": "CMSIS-Atmel",
-                "version": "1.2.0"
-              }
-            ]
-          }
+          ],
+          "toolsDependencies": []
+        }
         ],
         "tools":
         [
