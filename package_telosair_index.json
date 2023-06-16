@@ -11,7 +11,7 @@
           {
             "name": "TelosAir Boards",
             "architecture": "samd",
-            "version": "3.3",
+            "version": "1.0",
             "category": "Contributed",
             "url": "https://github.com/Potsdam-Sensors/TelosAir_Duet_ArduinoBoard/raw/main/TelosAir_Duet.zip?raw=true",
             "archiveFileName": "TelosAir_Boards.zip",
